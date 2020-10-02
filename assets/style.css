@@ -1,1 +1,26 @@
-p { background-color: red; }
+.book {
+
+}
+.book-header {
+  color: blue;
+}
+
+.book-sidebar {
+  color: plum;
+}
+
+.book-sidebar-header {
+  color: brown;
+}
+
+.chapter {
+  color: brown;
+}
+
+.chapter-header {
+
+}
+
+.chapter-footer {
+    font-style: italic;
+}

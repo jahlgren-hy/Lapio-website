@@ -8,37 +8,56 @@
 </head>
 
 <body>
-  <!--Tee tehtävät tänne-->
-  <a href="aleksis_kivi.html">Aleksis Kivi</a>
-  <h1>Seitsemän veljestä</h1>
-  <img src="assets/Seitsemän_veljestä.png" alt="Seitsemän veljestä 1. luku">
-  <ul>
-    <li>Päähenkilöt
-      <ul>
-        <li>Juhani
-        <li>Tuomas
-        <li>Aapo
-        <li>Simeoni
-        <li>Timo
-        <li>Lauri
-        <li>Eero
-      </ul>
-    <li>Sivuhenkilöt
-      <ul>
-        <li>Männistön Venla
-        <li>Lukkari
-        <li>Tammiston Kyösti
-      </ul>
-  </ul>
-  <h3>Enimmäinen luku</h3>
-  <p>
-    <strong>Jukolan </strong> talo, eteläisessä <em>Hämeessä</em>, seisoo erään mäen pohjoisella rinteellä, liki
-    <em>Toukolan kylää</em>.
-  <p>
-    Sen läheisin ympäristö on kivinen, mutta alempana alkaa pellot, joissa, ennenkuin talo oli häviöön mennyt, aaltoili
-    teräinen vilja.
-  </p>
-  <em>jatkuu...</em>
-</body>
+  <aside>
+    <p>
+      <a href="aleksis_kivi.html">Aleksis Kivi</a>
+    </p>
+  </aside>
+  <header class="book-header">
+    <h1>Seitsemän veljestä</h1>
+    <img src="assets/Seitsemän_veljestä.png" alt="Seitsemän veljestä 1. luku">
+  </header>
 
-</html>
+  <main>
+    <aside class="book-sidebar">
+      <header class="book-sidebar-header">
+        <h2>Tärkeät henkilöt</h2>
+      </header>
+      <ul>
+        <li>Päähenkilöt
+          <ul>
+            <li>Juhani
+            <li>Tuomas
+            <li>Aapo
+            <li>Simeoni
+            <li>Timo
+            <li>Lauri
+            <li>Eero
+          </ul>
+        <li>Sivuhenkilöt
+          <ul>
+            <li>Männistön Venla
+            <li>Lukkari
+            <li>Tammiston Kyösti
+          </ul>
+      </ul>
+    </aside>
+    <article class="chapter">
+      <header class="chapter-header">
+        <h3>Enimmäinen luku</h3>
+      </header>
+      <p>
+        <strong>Jukolan </strong> talo, eteläisessä <em>Hämeessä</em>, seisoo erään mäen pohjoisella rinteellä, liki
+        <em>Toukolan kylää</em>.
+      <p>
+        Sen läheisin ympäristö on kivinen, mutta alempana alkaa pellot, joissa, ennenkuin talo oli häviöön mennyt,
+        aaltoili
+        teräinen vilja.
+      </p>
+    </article>
+  </main>
+
+  <footer class="chapter-footer">
+    <p>jatkuu...</p>
+  </footer>
+</body>
