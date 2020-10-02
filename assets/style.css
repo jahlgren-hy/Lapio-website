@@ -24,3 +24,24 @@
 .chapter-footer {
     font-style: italic;
 }
+
+.container {
+  display: inline-block;
+  margin-right: 25px;
+  width: 200px;
+  height: 100px;
+  background: red;
+}
+
+.first-box{
+  background-color: red;
+}
+
+.second-box{
+  background-color: yellow;
+}
+
+.third-box{
+  background-color: green;
+}
+
